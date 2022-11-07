@@ -1,0 +1,23 @@
+.cell {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(157, 143, 143);
+    height: 100vh;
+    padding-top: 2px;
+
+}
+
+
+.Board {
+    font-family: "San-Serif", cursive;
+    text-align: center;
+}
+.cellcontainer {
+        margin: 0;
+        display: grid;
+        grid-template-columns: 33px, 33px, 33px;
+        grid-template-rows: 33px, 33px, 33px;
+        width: 300px;
+
+}
